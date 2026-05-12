@@ -1,0 +1,40 @@
+{
+  "name": "word-to-latex",
+  "version": "1.0.0",
+  "description": "CLI tool to convert PDF, Word, Excel, CSV, HTML, EPUB and PowerPoint files to LaTeX",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdamissu/word-to-latex.git"
+  },
+  "bin": {
+    "word-to-latex": "bin/cli.js"
+  },
+  "keywords": ["latex", "word", "docx", "pdf", "excel", "csv", "epub", "pptx", "converter", "cli"],
+  "author": "mdamissu",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mdamissu/word-to-latex/issues"
+  },
+  "homepage": "https://github.com/mdamissu/word-to-latex#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.2.0",
+    "commander": "^14.0.3",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}

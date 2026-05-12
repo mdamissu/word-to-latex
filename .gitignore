@@ -1,0 +1,9 @@
+tests/
+.claude/
+*.docx
+*.epub
+*.pptx
+*.xlsx
+*.csv
+*.pdf
+out.tex
